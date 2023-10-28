@@ -1,0 +1,162 @@
+.section-bg-1 {
+    background-image: url(img4.jpg);
+}
+
+.section-padding {
+    position: relative;
+    background-size: cover;
+    background-position: center top;
+    padding: 100px 0;
+}
+
+.section-padding,
+.section-bg-1 {
+    background-attachment: fixed;
+    height: 76.7vh;
+    width: 150vh;
+    margin-left: 25vh;
+}
+
+.single-price-box {
+    position: relative;
+    float: left;
+    width: 33.33%;
+}
+
+.single-price-box::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    content: "";
+    background-color: #333;
+    opacity: .2;
+}
+
+.single-price-box:last-child::after {
+    display: none;
+}
+
+.price-boxes {
+    box-shadow: 0 0 30px black;
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.single-price-box:last-child {
+    border: none;
+}
+
+.price-box-img-wrap {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+}
+
+.price-box-image {
+    display: table;
+    width: 100%;
+    height: 250px;
+}
+
+.price-box-inner {
+    background-color: #fff;
+    padding: 30px;
+    color: #3c76c0;
+    text-align: center;
+}
+
+.price-box-inner h2 {
+    text-align: center;
+    font-weight: 900;
+    color: #3c76c0;
+    position: relative;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+
+.price-box-inner h2::after {
+    position: absolute;
+    bottom: -30%;
+    left: 43%;
+    width: 25px;
+    height: 3px;
+    background-color: #3c76c0;
+    content: "";
+    border-radius: 5px;
+}
+
+.price-content span {
+    display: inline-block;
+    position: relative;
+    color: #d25529;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.price-content span::before {
+    content: "$";
+    font-size: 24px;
+    position: absolute;
+    left: -15px;
+    top: -7px;
+    font-weight: 700;
+}
+
+
+.price-content span::after {
+    content: "/mo";
+    font-weight: 500;
+    font-size: 23px;
+    margin-left: 4px;
+}
+
+.price-box-inner h3 {
+    text-align: center;
+    padding-left: 15px;
+}
+
+.price-box-inner ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 28px;
+    font-size: 18px;
+    padding-left: 45px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-weight: 280;
+}
+
+.boxed-btn {
+    display: inline-block;
+    background-color: #3c76c0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 900;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.boxed-btn:hover {
+    background: #d25529;
+    color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.kamrul {
+    margin-top: 100px;
+    background: #333;
+}
